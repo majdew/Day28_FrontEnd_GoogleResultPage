@@ -21,11 +21,18 @@ input{
     border-collapse: left;
     
 }
+.second-table{
+    border-collapse: separate;
+    border-spacing:20px 20px;
+    margin-left:300px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+}
 .second-header{
     border-collapse: separate;
     border-spacing:20px 10px;
     margin-left: 160px;
-    border-bottom: black solid 1px
+    border-bottom: black solid 1px;
 }
 
 .icon{
@@ -41,6 +48,9 @@ h1{
 .Results{
     margin-left: 174px;
     margin-top:20px;
+}
+body{
+    position: fixed;
 }
 
 h3{
